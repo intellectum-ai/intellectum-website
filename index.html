@@ -4,6 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intellectum — Legal AI & eDiscovery Consulting</title>
+  <meta name="description" content="Intellectum provides independent legal AI consulting, eDiscovery platform selection, and AI training for law firms on the Gold Coast and across Australia." />
+  <meta name="keywords" content="legal AI consulting, eDiscovery platform selection, legal technology, AI training for lawyers, Gold Coast, Australia" />
+  <meta name="author" content="Daniel Kavan" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.intellectum.com.au/" />
+
+  <!-- Open Graph / LinkedIn sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.intellectum.com.au/" />
+  <meta property="og:title" content="Intellectum — Legal AI & eDiscovery Consulting" />
+  <meta property="og:description" content="Independent legal AI consulting, eDiscovery platform selection, and AI training for law firms. No vendor relationships. No agenda." />
+
+  <!-- Google Search Console verification -->
+  <meta name="google-site-verification" content="Di4WT0N368H5OBlFIVWzwtuYJ8zvWAlbz-HtfuirNpk" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -704,7 +719,8 @@
       <p class="contact-intro">
         If you're evaluating an eDiscovery platform, considering AI tools for your firm, or want to upskill your team, get in touch. An initial conversation is free and carries no obligation.
       </p>
-      <form id="contactForm">
+      <form id="contactForm" name="contact" netlify>
+        <input type="hidden" name="form-name" value="contact" />
         <div class="form-row">
           <div class="form-group">
             <label for="fname">First name</label>
