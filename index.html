@@ -21,7 +21,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -31,7 +31,7 @@
       --accent: #0077b6;
       --mid: #3d7a9e;
       --rule: rgba(0,79,122,0.15);
-      --serif: 'Cormorant Garamond', Georgia, serif;
+      --serif: 'Plus Jakarta Sans', system-ui, sans-serif;
       --sans: 'DM Sans', system-ui, sans-serif;
     }
 
@@ -118,8 +118,8 @@
 
     .hero-heading {
       font-family: var(--serif);
-      font-size: clamp(3rem, 5vw, 5.5rem);
-      font-weight: 300;
+      font-size: clamp(2.4rem, 4vw, 4rem);
+      font-weight: 400;
       line-height: 1.05;
       letter-spacing: -0.01em;
       margin-bottom: 2rem;
@@ -241,8 +241,8 @@
 
     .section-title {
       font-family: var(--serif);
-      font-size: clamp(2rem, 3.5vw, 3rem);
-      font-weight: 300;
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      font-weight: 400;
       letter-spacing: -0.01em;
     }
 
@@ -390,8 +390,8 @@
 
     .about-pull {
       font-family: var(--serif);
-      font-size: clamp(1.8rem, 3vw, 2.6rem);
-      font-weight: 300;
+      font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+      font-weight: 400;
       line-height: 1.2;
       letter-spacing: -0.01em;
       color: var(--ink);
@@ -617,7 +617,7 @@
           <div class="hero-stat-label">Vendor independent</div>
         </div>
         <div class="hero-stat">
-          <div class="hero-stat-num"><em style="font-family:var(--serif);font-style:italic;font-size:1.8rem;color:var(--accent)">SME</em></div>
+          <div class="hero-stat-num"><em style="font-family:var(--serif);font-size:1.8rem;color:var(--accent)">SME</em></div>
           <div class="hero-stat-label">Focus: small &amp; mid-size firms</div>
         </div>
       </div>
@@ -769,11 +769,11 @@
     <div class="footer-links">
       <a href="https://www.linkedin.com/company/intellectum-ai/" target="_blank">LinkedIn</a>
       <a href="https://www.instagram.com/dan_intellectum/" target="_blank">Instagram</a>
-      <a href="mailto:dan@intellectum.com.au">Email</a>
+      <a href="/cdn-cgi/l/email-protection#26424748664f4852434a4a434552534b0845494b084753">Email</a>
     </div>
   </footer>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Scroll reveal
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
@@ -790,5 +790,4 @@
       reveals.forEach(el => el.classList.add('visible'));
     }, 800);
 
-    // Form submit (placeholder — wire to Netlify Forms or Formspree)
-    document.getElementById('contactForm').addEventListener('submit', function(e) 
+ 
